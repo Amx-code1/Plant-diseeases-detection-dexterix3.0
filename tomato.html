@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <link rel="stylesheet" href="home.js" type="text/Javascript">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+    </head>
+    <body>
+        <div class="container">
+            <h2>Select the plant sample </h2>
+            <p>please select which type of plant sample you want to upload. </p>
+            <p>you can select atleast one at a time</p>
+            <p>Please select only the desired results</p>                                          
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an plant
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a url: process.env.REACT_APP_API_URL="http://localhost:8000/predict">Tomato </a></li>
+                <li><a href="#">Grapes</a></li>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Corn</a></li>
+                <li><a href="#">potato</a></li>
+              </ul>
+            </div>
+          </div>
+    </body>
+    </html>
