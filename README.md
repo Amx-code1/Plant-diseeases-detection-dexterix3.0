@@ -1,1 +1,1 @@
-# Plant-diseeases-detection-dexterix3.0
+# Plant-diseases-detection-dexterix3.0
